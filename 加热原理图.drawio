@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="nFdHJ9x_urMf7EF3JdE7">
-    <mxGraphModel dx="926" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="441" dy="286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wS86Zbbw3dwniLii4LwB-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="控制单元" vertex="1">
+          <mxGeometry height="40" width="100" x="314" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="人机交互单元" vertex="1">
+          <mxGeometry height="40" width="100" x="190" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-14" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加热驱动器" vertex="1">
+          <mxGeometry height="40" width="100" x="314" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-15" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-24" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加热板" vertex="1">
+          <mxGeometry height="40" width="100" x="440" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-25" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="塑料坯胎" vertex="1">
+          <mxGeometry height="40" width="100" x="570" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-22" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="wS86Zbbw3dwniLii4LwB-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="290" />
+            </Array>
+            <mxPoint x="486" y="259.9999999999999" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加热板温度&lt;div&gt;传感器&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="440" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-26" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.998;entryY=0.683;entryDx=0;entryDy=0;entryPerimeter=0;" target="wS86Zbbw3dwniLii4LwB-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="307" />
+            </Array>
+            <mxPoint x="620" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="塑料表面温度&lt;div&gt;传感器&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="570" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="温度采集单元" vertex="1">
+          <mxGeometry height="40" width="100" x="314" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-21" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="环境室温&lt;div&gt;传感器&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="190" y="280" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
