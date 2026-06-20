@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="nFdHJ9x_urMf7EF3JdE7">
-    <mxGraphModel dx="639" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="772" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,6 +74,68 @@
             <mxPoint x="360" y="280" as="sourcePoint" />
             <mxPoint x="410" y="230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-58" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="控制单元" vertex="1">
+          <mxGeometry height="40" width="100" x="234" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-57" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="人机交互单元" vertex="1">
+          <mxGeometry height="40" width="100" x="110" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-59" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-46" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="驱动器" vertex="1">
+          <mxGeometry height="40" width="100" x="234" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-60" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-48" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="执行器" vertex="1">
+          <mxGeometry height="40" width="100" x="363.5" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-61" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-52" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-65" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加压机构" vertex="1">
+          <mxGeometry height="40" width="100" x="490" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-68" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="wS86Zbbw3dwniLii4LwB-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="470" />
+              <mxPoint x="414" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="压力&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;传感器&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="620" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-62" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="成型模具与&lt;div&gt;塑料坯料&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="620" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-66" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-55" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="速度/位移&lt;div&gt;传感器&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="490" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-67" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="信号采集单元" vertex="1">
+          <mxGeometry height="40" width="100" x="364" y="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
