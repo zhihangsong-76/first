@@ -230,6 +230,103 @@
         <mxCell id="wS86Zbbw3dwniLii4LwB-100" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="坯料表面预测温度" vertex="1">
           <mxGeometry height="30" width="60" x="357" y="510" as="geometry" />
         </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-101" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-104" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-102" parent="1" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="160" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-103" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-106" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="非奇异终&lt;div&gt;端滑模面&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="86" x="214" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-105" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="终端滑模&lt;div&gt;控制率&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="86" x="334" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-129" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="wS86Zbbw3dwniLii4LwB-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="扰动观测器" vertex="1">
+          <mxGeometry height="40" width="73" x="437" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-114" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-117" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="驱动器" vertex="1">
+          <mxGeometry height="40" width="86" x="530" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-116" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-119" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-117" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="执行器与&lt;div&gt;执行机构&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="86" x="650" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-134" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-133" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-119" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="塑料热&lt;div&gt;成型对象&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="86" x="650" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-120" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-121" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="120" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-123" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="目标压力" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-124" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="379" y="750" as="sourcePoint" />
+            <mxPoint x="379" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-125" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="坯料表面预测温度" vertex="1">
+          <mxGeometry height="30" width="60" x="347" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-130" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wS86Zbbw3dwniLii4LwB-115" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-127" parent="1" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="450" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-128" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="720" as="sourcePoint" />
+            <mxPoint x="460" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-132" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="730" as="sourcePoint" />
+            <mxPoint x="490" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-133" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="压力采集" vertex="1">
+          <mxGeometry height="40" width="86" x="530" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-136" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="外部扰动" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="wS86Zbbw3dwniLii4LwB-137" edge="1" parent="1" source="wS86Zbbw3dwniLii4LwB-133" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="wS86Zbbw3dwniLii4LwB-102" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="830" />
+            </Array>
+            <mxPoint x="170" y="820" as="sourcePoint" />
+            <mxPoint x="170" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
